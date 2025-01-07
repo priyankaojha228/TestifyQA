@@ -1,0 +1,171 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Container Styling */
+.container {
+    padding: 20px;
+}
+
+/* Dashboard Header Styling */
+.dashboard {
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard h1 {
+    color: #333;
+}
+
+/* Button Styling */
+.dashboard .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Bug List Page Styling */
+.bug-list-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bug-list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .bug-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bug-table th,
+  .bug-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .bug-table th {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .bug-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Status-Based Row Colors */
+  .status-open {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .status-in-progress {
+    background-color: #fff3cd;
+    color: #856404;
+  }
+  
+  .status-closed {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  /* Error Message Styling */
+  .error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+
+/* Priority-Based Row Colors */
+.bug-table td.priority-high {
+    background-color: #ffcccc;
+    color: #b30000;
+    font-weight: bold;
+}
+
+.bug-table td.priority-medium {
+    background-color: #ffe6b3;
+    color: #b36b00;
+    font-weight: bold;
+}
+
+.bug-table td.priority-low {
+    background-color: #d6f5d6;
+    color: #006600;
+    font-weight: bold;
+}
+
+
+/* Status-Based Row Colors */
+.status-open {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.status-in-progress {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.status-closed {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+/* Error Message Styling */
+.error {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
